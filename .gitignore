@@ -1,0 +1,11 @@
+*~
+bin
+obj
+.vs
+test-results
+*.user
+*.sdf
+*.opensdf
+*.suo
+*.userprefs
+*.GhostDoc.xml

@@ -7,9 +7,7 @@
 
         public IEnumerable<ITestable> SubTests { get; }
 
-        public ITestResult Result { get; }
-
-        public Task Run() {
+        public Task<ITestResult> Run() {
             throw new System.NotImplementedException();
         }
     }

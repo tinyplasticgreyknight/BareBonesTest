@@ -7,8 +7,6 @@
 
         IEnumerable<ITestable> SubTests { get; }
 
-        ITestResult Result { get; }
-
-        Task Run();
+        Task<ITestResult> Run();
     }
 }

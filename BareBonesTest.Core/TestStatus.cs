@@ -1,8 +1,7 @@
 ﻿namespace BareBonesTest.Core {
     public enum TestStatus {
         Idle,
-        Queued,
-        Running,
+        Skipped,
         Successful,
         Failed,
         Crashed

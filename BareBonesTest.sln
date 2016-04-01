@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BareBonesTest", "BareBonesT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BareBonesTest.Core", "BareBonesTest.Core\BareBonesTest.Core.csproj", "{AA3FE3F1-E4CC-42C2-82AF-78B179A74E39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BareBonesTest.Runners", "BareBonesTest.Runners\BareBonesTest.Runners.csproj", "{3D31B0EB-CC7C-4582-BC0B-F6A452A1C496}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AA3FE3F1-E4CC-42C2-82AF-78B179A74E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA3FE3F1-E4CC-42C2-82AF-78B179A74E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA3FE3F1-E4CC-42C2-82AF-78B179A74E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D31B0EB-CC7C-4582-BC0B-F6A452A1C496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D31B0EB-CC7C-4582-BC0B-F6A452A1C496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D31B0EB-CC7C-4582-BC0B-F6A452A1C496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D31B0EB-CC7C-4582-BC0B-F6A452A1C496}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

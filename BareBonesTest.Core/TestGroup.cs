@@ -1,14 +1,9 @@
 ﻿namespace BareBonesTest.Core {
     using System.Collections.Generic;
 
-    internal class TestGroup : ITest {
+    internal class TestGroup : ITestSuiteNode {
         public string Name { get; }
 
-        public IEnumerable<ITest> SubTests { get; }
-
-        public bool AsRunnable(out IRunnableTest runnable) {
-            runnable = null;
-            return false;
-        }
+        public IEnumerable<ITestSuiteNode> Children { get; }
     }
 }

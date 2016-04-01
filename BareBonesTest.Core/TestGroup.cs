@@ -1,14 +1,14 @@
 ﻿namespace BareBonesTest.Core {
     using System.Collections.Generic;
-    using System.Threading.Tasks;
 
-    internal class TestGroup : ITestable {
+    internal class TestGroup : ITest {
         public string Name { get; }
 
-        public IEnumerable<ITestable> SubTests { get; }
+        public IEnumerable<ITest> SubTests { get; }
 
-        public Task<ITestResult> Run() {
-            throw new System.NotImplementedException();
+        public bool AsRunnable(out IRunnableTest runnable) {
+            runnable = null;
+            return false;
         }
     }
 }

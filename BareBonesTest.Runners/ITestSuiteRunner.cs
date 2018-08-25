@@ -1,4 +1,4 @@
 ﻿namespace BareBonesTest.Runners {
-    public interface ITestRunner {
+    public interface ITestSuiteRunner {
     }
 }
